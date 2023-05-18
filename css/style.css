@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 235, 224);
+}
+
+/* ----- nav ----- */
+
+ul,
+li {
+    list-style: none;
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ----- header ----- */
+
+header {
+    background-color: rgb(245, 235, 224);
+    padding: 22px;
+    width: 90%;
+    margin: 0px auto 40px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav--lista {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav--lista a:hover{
+    color: rgb(194, 172, 149);
+    transition: 0.5s;
+}
+
+.header__nav--boton {
+    padding: 8px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(215, 194, 173);
+    text-decoration: none;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 3px rgb(146, 146, 146);
+}
+
+.header__nav--boton:hover {
+    background-color: rgb(156, 138, 120);
+    transition: 1s;
+}
+
+/* ----- main ----- */
+
+#sobremi {
+    display: flex;
+    width: 60%;
+    margin: 100px auto 100px;
+}
+
+.sobremi__img {
+    width: 500px;
+    height: 600px;
+    margin: 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.sobremi__datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobremi__datos h2 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.sobremi__datos h1 {
+    font-size: 1.875rem;
+    color: black;
+}
+
+.sobremi__datos p {
+    color: black;
+    text-align: center;
+}
+
+.sobremi__links--boton {
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(215, 194, 173);
+    text-decoration: none;
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.sobremi__links--boton:hover {
+    background-color: rgb(156, 138, 120);
+    transition: 1s;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    background-color: rgb(245, 235, 224);
+    padding: 25px;
+    margin-top: 40px;
+    box-shadow: -5px -5px 20px 5px rgb(146, 146, 146);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__contacto {
+    font-size: 2.188rem;
+}
+
+.footer__contacto i {
+    margin: 0px 20px 0px 20px;
+}
+
+.footer__contacto i:hover {
+    color: rgb(156, 138, 120);
+    transition: 1s;
+}
+
+.footer__copyright {
+    color: black;
+    font-size: 0.813rem;
+}
