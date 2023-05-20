@@ -72,7 +72,7 @@ header {
     transition: 1s;
 }
 
-/* ----- main ----- */
+/* ----- main index ----- */
 
 #sobremi {
     display: flex;
@@ -129,6 +129,31 @@ header {
     transition: 1s;
 }
 
+/* ----- main certificaciones ----- */
+
+.certificaciones {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.certificaciones img {
+    width: 600px;
+    height: 500px;
+    margin: 30px 50px 50px 50px;
+}
+
+.certificaciones__article--1 {
+    text-align: center;
+}
+
+.certificaciones__article--2 {
+    text-align: center;
+}
+
+.certificaciones__article--3 {
+    text-align: center;
+}
+
 /* ----- Footer ----- */
 
 .footer {
@@ -159,4 +184,117 @@ header {
     color: black;
     font-size: 0.813rem;
     margin-top: 8px;
+}
+
+/* ----- Media Queries Mobile ----- */
+
+@media screen and (min-width: 390px) {
+
+/* ----- header ----- */
+
+header {
+    margin: 0px auto 15px;
+    box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+}
+
+/* ----- main ----- */
+
+#sobremi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto 15px;
+}
+
+.sobremi__img {
+    width: 200px;
+    height: 260px;
+    margin: 20px 20px 30px;
+}
+
+.sobremi__datos h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sobremi__datos h1 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.sobremi__datos p {
+    color: black;
+    text-align: center;
+}
+
+/* ----- main certificaciones ----- */
+
+.certificaciones img {
+    width: 250px;
+    height: 175px;
+    margin: 15px 25px 25px 25px;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    box-shadow: -5px -5px 10px 5px rgb(146, 146, 146);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/* ----- Media Queries Desktop ----- */
+
+@media screen and (min-width: 1024px) {
+
+/* ----- header ----- */
+
+header {
+    margin: 0px auto 15px;
+}
+
+/* ----- main index ----- */
+
+#sobremi {
+    flex-direction: row;
+    margin: 160px auto 160px;
+}
+
+.sobremi__img {
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+}
+
+.sobremi__datos h2 {
+    font-size: 2.5rem;
+}
+
+.sobremi__datos h1 {
+    font-size: 1.875rem;
+}
+
+/* ----- main certificaciones ----- */
+
+.certificaciones img {
+    width: 450px;
+    height: 375px;
+    margin: 15px 25px 25px 25px;
+}
+
+/* ----- Footer ----- */
+
+.footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 }
