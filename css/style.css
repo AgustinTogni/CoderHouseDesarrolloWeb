@@ -133,7 +133,11 @@ header {
 
 .certificaciones {
     width: 80%;
-    margin: 0px auto;
+    margin: 40px auto 0px;
+}
+
+.certificaciones h2 {
+    margin-top: 30px;
 }
 
 .certificaciones img {
@@ -152,6 +156,35 @@ header {
 
 .certificaciones__article--3 {
     text-align: center;
+}
+
+/* ----- main servicios ----- */
+
+main {
+    margin: 120px auto 120px;
+}
+
+.servicios {
+    text-align: center;
+    margin: 40px auto 50px;
+}
+
+.servicios__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios__section--article {
+    width: 250px;
+    height: 350px;
+    margin: 0px 40px 10px;
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 
 /* ----- Footer ----- */
@@ -197,7 +230,7 @@ header {
     box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
 }
 
-/* ----- main ----- */
+/* ----- main index ----- */
 
 #sobremi {
     display: flex;
@@ -235,6 +268,23 @@ header {
     width: 250px;
     height: 175px;
     margin: 15px 25px 25px 25px;
+}
+
+/* ----- main servicios ----- */
+
+main {
+    margin: 80px auto 80px;
+}
+
+.servicios__section {
+    flex-direction: column;
+}
+
+.servicios__section--article {
+    width: 250px;
+    height: 350px;
+    margin: 0px auto 60px;
+    padding: 20px;
 }
 
 /* ----- Footer ----- */
@@ -287,6 +337,23 @@ header {
     width: 450px;
     height: 375px;
     margin: 15px 25px 25px 25px;
+}
+
+/* ----- main servicios ----- */
+
+main {
+    margin: 120px auto 120px;
+}
+
+.servicios__section {
+    flex-direction: row;
+}
+
+.servicios__section--article {
+    width: 250px;
+    height: 350px;
+    margin: 40px 40px;
+    padding: 20px;
 }
 
 /* ----- Footer ----- */
