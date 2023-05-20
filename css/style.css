@@ -341,6 +341,13 @@ main {
     padding: 20px;
 }
 
+/* ----- main contacto ----- */
+
+.form {
+    width: 300px;
+    padding: 40px;
+}
+
 /* ----- Footer ----- */
 
 .footer {
@@ -408,6 +415,13 @@ main {
     height: 350px;
     margin: 40px 40px;
     padding: 20px;
+}
+
+/* ----- main contacto ----- */
+
+.form {
+    width: 400px;
+    padding: 50px;
 }
 
 /* ----- Footer ----- */
