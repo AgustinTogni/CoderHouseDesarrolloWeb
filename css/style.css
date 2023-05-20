@@ -133,7 +133,11 @@ header {
 
 .certificaciones {
     width: 80%;
-    margin: 40px auto 0px;
+    margin: 0px auto;
+}
+
+.certificaciones h1 {
+    margin: -20px 0px 20px;
 }
 
 .certificaciones h2 {
@@ -185,6 +189,56 @@ main {
 
     border-radius: 30px;
     box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+/* ----- main contacto ----- */
+
+.contacto {
+    margin: -20px auto 30px;
+    text-align: center;
+}
+
+.form {
+    width: 400px;
+    padding: 50px;
+    margin: 0px auto;
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+
+    font-size: 0.813rem;
+}
+
+.form__textarea {
+    width: 100%;
+    padding: 10px;
+
+    font-size: 0.813rem;
+    border: 2px solid black;
+    resize: none;
+}
+
+.form__submit {
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 8px;
+    background-color: rgb(215, 194, 173);
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+
+    cursor: pointer;
+    border: none;
+}
+
+.form__submit:hover {
+    background-color: rgb(156, 138, 120);
+    transition: 1s;
 }
 
 /* ----- Footer ----- */
