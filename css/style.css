@@ -191,6 +191,122 @@ main {
     box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 
+/* ----- main proyectos ----- */
+
+.proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.proyectos__titulo {
+    text-align: center;
+}
+
+.proyectos__article {
+    grid-column: span 3;
+
+    display: flex;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.proyectos__article img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+}
+
+.proyectos__article--div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+}
+
+.proyectos__article--div h2 {
+    margin-bottom: 30px;
+}
+
+.proyectos__article--div p {
+    text-align: center;
+}
+
+.proyectos__article--div a {
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(215, 194, 173);
+    text-decoration: none;
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.proyectos__article--div a:hover {
+    background-color: rgb(156, 138, 120);
+    transition: 1s;
+}
+
+.destacados__titulo {
+    text-align: center;
+    margin: 60px 0px 40px;
+}
+
+.destacados {
+    display: flex;
+}
+
+.destacados__acticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px;
+    width: 80%;
+}
+
+.destacados__acticle img {
+    width: 300px;
+    height: 400px;
+    margin: 20px 0px;
+
+    object-fit: cover;    
+    border-radius: 120px;
+    box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+}
+
+.destacados__acticle p {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.destacados__acticle a {
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(215, 194, 173);
+    text-decoration: none;
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.destacados__acticle a:hover {
+    background-color: rgb(156, 138, 120);
+    transition: 1s;
+}
+
 /* ----- main contacto ----- */
 
 .contacto {
@@ -348,6 +464,13 @@ main {
     padding: 40px;
 }
 
+/* ----- main proyectos ----- */
+
+.destacados {
+    flex-direction: column;
+    align-items: center;
+}
+
 /* ----- Footer ----- */
 
 .footer {
@@ -422,6 +545,12 @@ main {
 .form {
     width: 400px;
     padding: 50px;
+}
+
+/* ----- main proyectos ----- */
+
+.destacados {
+    flex-direction: row;
 }
 
 /* ----- Footer ----- */
