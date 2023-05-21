@@ -194,39 +194,37 @@ main {
 /* ----- main proyectos ----- */
 
 .proyectos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    width: 60%;
+    margin: 0px auto;
 }
 
 .proyectos__titulo {
     text-align: center;
+    margin: 20px auto 80px;
 }
 
 .proyectos__article {
-    grid-column: span 3;
-
-    display: flex;
-    width: 60%;
-    margin: 30px auto;
-}
-
-.proyectos__article img {
-    width: 300px;
-    height: 500px;
-    object-fit: cover;
-
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
 }
 
 .proyectos__article--div {
+    grid-column: span 2;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
-    margin: 20px;
+.proyectos__article img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    margin-bottom: 40px;
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
 }
 
 .proyectos__article--div h2 {
@@ -234,7 +232,7 @@ main {
 }
 
 .proyectos__article--div p {
-    text-align: center;
+    margin-bottom: 30px;
 }
 
 .proyectos__article--div a {
@@ -457,18 +455,37 @@ main {
     padding: 20px;
 }
 
+/* ----- main proyectos ----- */
+
+.proyectos__titulo {
+    margin-bottom: -3px;
+}
+
+.proyectos__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.proyectos__article {
+    margin: 20px auto 40px;
+}
+
+.proyectos__article img {
+    margin: 20px auto 40px;
+}
+
+.destacados {
+    flex-direction: column;
+    align-items: center;
+}
+
 /* ----- main contacto ----- */
 
 .form {
     width: 300px;
     padding: 40px;
-}
-
-/* ----- main proyectos ----- */
-
-.destacados {
-    flex-direction: column;
-    align-items: center;
 }
 
 /* ----- Footer ----- */
@@ -540,17 +557,31 @@ main {
     padding: 20px;
 }
 
+/* ----- main proyectos ----- */
+
+.proyectos {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.proyectos__article {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+}
+
+.proyectos__article--divinverso {
+    grid-column-end: span 2;
+}
+
+.destacados {
+    flex-direction: row;
+}
+
 /* ----- main contacto ----- */
 
 .form {
     width: 400px;
     padding: 50px;
-}
-
-/* ----- main proyectos ----- */
-
-.destacados {
-    flex-direction: row;
 }
 
 /* ----- Footer ----- */
