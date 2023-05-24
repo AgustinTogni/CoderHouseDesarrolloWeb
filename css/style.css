@@ -34,28 +34,28 @@ header {
     box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 
-.header__nav {
+.nav {
     padding: 0;
 }
 
-.header__div {
+.nav__div {
     display: flex;
     justify-content: space-between;
 }
 
-.header__div--lista {
+.nav__lista {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 30px;
 }
 
-.header__div--lista a:hover{
+.nav__lista a:hover{
     color: rgb(194, 172, 149);
     transition: 0.5s;
 }
 
-.header__div--boton {
+.nav__boton {
     padding: 8px;
     font-size: 1.125rem;
     cursor: pointer;
@@ -67,14 +67,15 @@ header {
     box-shadow: 1px 1px 20px 3px rgb(146, 146, 146);
 }
 
-.header__div--boton:hover {
+.nav__boton:hover {
     background-color: rgb(156, 138, 120);
+    color: black;
     transition: 1s;
 }
 
 /* ----- main index ----- */
 
-#sobremi {
+.sobremi {
     display: flex;
     width: 60%;
     margin: 100px auto 100px;
@@ -111,7 +112,7 @@ header {
     text-align: center;
 }
 
-.sobremi__links--boton {
+.sobremi__boton {
     padding: 8px;
     margin: 10px;
     font-size: 1.125rem;
@@ -124,7 +125,7 @@ header {
     box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 
-.sobremi__links--boton:hover {
+.sobremi__boton:hover {
     background-color: rgb(156, 138, 120);
     transition: 1s;
 }
@@ -150,15 +151,15 @@ header {
     margin: 30px 50px 50px 50px;
 }
 
-.certificaciones__article--1 {
+.certificaciones__intro {
     text-align: center;
 }
 
-.certificaciones__article--2 {
+.certificaciones__coderhouse {
     text-align: center;
 }
 
-.certificaciones__article--3 {
+.certificaciones__udemy {
     text-align: center;
 }
 
@@ -168,18 +169,18 @@ main {
     margin: 120px auto 120px;
 }
 
-.servicios {
+.servicios__titulo {
     text-align: center;
     margin: 40px auto 50px;
 }
 
-.servicios__section {
+.servicios {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.servicios__section--article {
+.servicios__article {
     width: 250px;
     height: 350px;
     margin: 0px 40px 10px;
@@ -193,14 +194,14 @@ main {
 
 /* ----- main proyectos ----- */
 
-.proyectos {
-    width: 60%;
-    margin: 0px auto;
-}
-
 .proyectos__titulo {
     text-align: center;
     margin: 20px auto 80px;
+}
+
+.proyectos {
+    width: 60%;
+    margin: 0px auto;
 }
 
 .proyectos__article {
@@ -208,16 +209,7 @@ main {
     grid-template-columns: repeat(3, 400px);
 }
 
-.proyectos__article--div {
-    grid-column: span 2;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.proyectos__article img {
+.proyectos__img {
     width: 300px;
     height: 450px;
     object-fit: cover;
@@ -227,15 +219,24 @@ main {
     box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
 }
 
-.proyectos__article--div h2 {
+.proyectos__div {
+    grid-column: span 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos__div h2 {
     margin-bottom: 30px;
 }
 
-.proyectos__article--div p {
+.proyectos__div p {
     margin-bottom: 30px;
 }
 
-.proyectos__article--div a {
+.proyectos__div a {
     padding: 8px;
     margin: 10px;
     font-size: 1.125rem;
@@ -248,7 +249,7 @@ main {
     box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 
-.proyectos__article--div a:hover {
+.proyectos__div a:hover {
     background-color: rgb(156, 138, 120);
     transition: 1s;
 }
@@ -272,7 +273,7 @@ main {
     width: 80%;
 }
 
-.destacados__acticle img {
+.destacados__img {
     width: 300px;
     height: 400px;
     margin: 20px 0px;
@@ -307,7 +308,7 @@ main {
 
 /* ----- main contacto ----- */
 
-.contacto {
+.form__titulo {
     margin: -20px auto 30px;
     text-align: center;
 }
@@ -400,7 +401,7 @@ header {
 
 /* ----- main index ----- */
 
-#sobremi {
+.sobremi {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -444,11 +445,11 @@ main {
     margin: 80px auto 80px;
 }
 
-.servicios__section {
+.servicios {
     flex-direction: column;
 }
 
-.servicios__section--article {
+.servicios__article {
     width: 250px;
     height: 350px;
     margin: 0px auto 60px;
@@ -472,7 +473,7 @@ main {
     margin: 20px auto 40px;
 }
 
-.proyectos__article img {
+.proyectos__img {
     margin: 20px auto 40px;
 }
 
@@ -513,7 +514,7 @@ header {
 
 /* ----- main index ----- */
 
-#sobremi {
+.sobremi {
     flex-direction: row;
     margin: 160px auto 160px;
 }
@@ -546,11 +547,11 @@ main {
     margin: 120px auto 120px;
 }
 
-.servicios__section {
+.servicios {
     flex-direction: row;
 }
 
-.servicios__section--article {
+.servicios__article {
     width: 250px;
     height: 350px;
     margin: 40px 40px;
@@ -567,10 +568,6 @@ main {
 .proyectos__article {
     display: grid;
     grid-template-columns: repeat(3, 400px);
-}
-
-.proyectos__article--divinverso {
-    grid-column-end: span 2;
 }
 
 .destacados {
