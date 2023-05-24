@@ -207,9 +207,13 @@ main {
 .proyectos__article {
     display: grid;
     grid-template-columns: repeat(3, 400px);
+
+    grid-template-areas: "img1 div1 div1";
 }
 
 .proyectos__img {
+    grid-area: img1;
+
     width: 300px;
     height: 450px;
     object-fit: cover;
@@ -220,7 +224,7 @@ main {
 }
 
 .proyectos__div {
-    grid-column: span 2;
+    grid-area: div1;
 
     display: flex;
     flex-direction: column;
@@ -233,6 +237,7 @@ main {
 }
 
 .proyectos__div p {
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -250,6 +255,61 @@ main {
 }
 
 .proyectos__div a:hover {
+    background-color: rgb(156, 138, 120);
+    transition: 1s;
+}
+
+.proyectos__article--inverso {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+
+    grid-template-areas: "div2 div2 img2";
+}
+
+.proyectos__img--inverso {
+    grid-area: img2;
+
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0px 0px 40px 100px;
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+}
+
+.proyectos__div--inverso {
+    grid-area: div2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos__div--inverso h2 {
+    margin-bottom: 30px;
+}
+
+.proyectos__div--inverso p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.proyectos__div--inverso a {
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(215, 194, 173);
+    text-decoration: none;
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.proyectos__div--inverso a:hover {
     background-color: rgb(156, 138, 120);
     transition: 1s;
 }
@@ -477,6 +537,21 @@ main {
     margin: 20px auto 40px;
 }
 
+.proyectos__article--inverso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.proyectos__article--inverso {
+    margin: 20px auto 40px;
+}
+
+.proyectos__img--inverso {
+    margin: 20px auto 40px;
+}
+
 .destacados {
     flex-direction: column;
     align-items: center;
@@ -566,6 +641,11 @@ main {
 }
 
 .proyectos__article {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+}
+
+.proyectos__article--inverso {
     display: grid;
     grid-template-columns: repeat(3, 400px);
 }
