@@ -192,6 +192,10 @@ main {
     box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 
+.servicios__article h2 {
+    margin-bottom: 20px;
+}
+
 /* ----- main proyectos ----- */
 
 .proyectos__titulo {
