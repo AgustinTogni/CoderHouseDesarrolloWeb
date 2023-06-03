@@ -73,20 +73,10 @@
             }
 
             & a {
-                padding: 8px;
-                margin: 10px;
-                font-size: 1.125rem;
-                cursor: pointer;
-                color: black;
-                background-color: $color-light-brown;
-                text-decoration: none;
-                border-radius: 10px;
-
-                box-shadow: $shadow-1;
+                @extend %btn;
 
                 &:hover {
-                    background-color: $color-brown;
-                    transition: 1s;
+                    @extend %btn--hover;
                 }
             }
         }
@@ -101,20 +91,10 @@
         }
 
         & a {
-            padding: 8px;
-            margin: 10px;
-            font-size: 1.125rem;
-            cursor: pointer;
-            color: black;
-            background-color: $color-light-brown;
-            text-decoration: none;
-            border-radius: 10px;
-
-            box-shadow: $shadow-1;
+            @extend %btn;
 
             &:hover {
-                background-color: $color-brown;
-                transition: 1s;
+                @extend %btn--hover;
             }
         }
     }
@@ -153,20 +133,10 @@
         }
 
         & a {
-            padding: 8px;
-            margin: 10px;
-            font-size: 1.125rem;
-            cursor: pointer;
-            color: black;
-            background-color: rgb(215, 194, 173);
-            text-decoration: none;
-            border-radius: 10px;
-
-            box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+            @extend %btn;
 
             &:hover {
-                background-color: rgb(156, 138, 120);
-                transition: 1s;
+                @extend %btn--hover;
             }
         }
     }

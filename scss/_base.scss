@@ -30,3 +30,25 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+/* ----- extends ----- */
+
+%btn {
+    padding: 8px;
+    margin: 10px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    color: black;
+    background-color: $color-light-brown;
+    text-decoration: none;
+    border-radius: 10px;
+
+    box-shadow: $shadow-1;
+}
+
+%btn--hover {
+    background-color: $color-brown;
+    color: black;
+    transition: 1s;
+}

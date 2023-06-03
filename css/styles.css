@@ -23,6 +23,25 @@ a {
   color: black;
 }
 
+/* ----- extends ----- */
+.destacados__article a, .proyectos__div a, .proyectos__div--inverso a, .sobremi__boton, .nav__boton {
+  padding: 8px;
+  margin: 10px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(215, 194, 173);
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.destacados__article a:hover, .proyectos__div a:hover, .proyectos__div--inverso a:hover, .sobremi__boton:hover, .nav__boton:hover {
+  background-color: rgb(156, 138, 120);
+  color: black;
+  transition: 1s;
+}
+
 /* ----- header ----- */
 header {
   background-color: rgb(245, 235, 224);
@@ -50,22 +69,6 @@ header {
   color: rgb(194, 172, 149);
   transition: 0.5s;
 }
-.nav__boton {
-  padding: 8px;
-  font-size: 1.125rem;
-  cursor: pointer;
-  color: black;
-  background-color: rgb(215, 194, 173);
-  text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
-}
-.nav__boton:hover {
-  background-color: rgb(156, 138, 120);
-  color: black;
-  transition: 1s;
-}
-
 /* ----- Media Queries Mobile ----- */
 @media screen and (min-width: 390px) {
   header {
@@ -155,22 +158,6 @@ header {
   color: black;
   text-align: center;
 }
-.sobremi__boton {
-  padding: 8px;
-  margin: 10px;
-  font-size: 1.125rem;
-  cursor: pointer;
-  color: black;
-  background-color: rgb(215, 194, 173);
-  text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
-}
-.sobremi__boton:hover {
-  background-color: rgb(156, 138, 120);
-  transition: 1s;
-}
-
 /* ----- Media Queries Mobile ----- */
 @media screen and (min-width: 390px) {
   .sobremi {
@@ -371,21 +358,6 @@ header {
   text-align: center;
   margin-bottom: 30px;
 }
-.proyectos__div--inverso a {
-  padding: 8px;
-  margin: 10px;
-  font-size: 1.125rem;
-  cursor: pointer;
-  color: black;
-  background-color: rgb(215, 194, 173);
-  text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
-}
-.proyectos__div--inverso a:hover {
-  background-color: rgb(156, 138, 120);
-  transition: 1s;
-}
 .proyectos__div h2 {
   margin-bottom: 30px;
 }
@@ -393,22 +365,6 @@ header {
   text-align: center;
   margin-bottom: 30px;
 }
-.proyectos__div a {
-  padding: 8px;
-  margin: 10px;
-  font-size: 1.125rem;
-  cursor: pointer;
-  color: black;
-  background-color: rgb(215, 194, 173);
-  text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
-}
-.proyectos__div a:hover {
-  background-color: rgb(156, 138, 120);
-  transition: 1s;
-}
-
 .destacados {
   display: flex;
 }
@@ -436,22 +392,6 @@ header {
   margin: 20px 0px;
   text-align: center;
 }
-.destacados__article a {
-  padding: 8px;
-  margin: 10px;
-  font-size: 1.125rem;
-  cursor: pointer;
-  color: black;
-  background-color: rgb(215, 194, 173);
-  text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
-}
-.destacados__article a:hover {
-  background-color: rgb(156, 138, 120);
-  transition: 1s;
-}
-
 /* ----- Media Queries Mobile ----- */
 @media screen and (min-width: 390px) {
   .proyectos__titulo {
