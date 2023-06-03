@@ -1,0 +1,32 @@
+/* ----- main certificaciones ----- */
+
+.certificaciones {
+    width: 80%;
+    margin: 0px auto;
+
+    & h1 {
+        margin: 20px 0px 20px;
+    }
+
+    & h2 {
+        margin-top: 30px;
+    }
+
+    & img {
+        width: 600px;
+        height: 500px;
+        margin: 30px 50px 50px 50px;
+    }
+
+    &__intro {
+        text-align: center;
+    }
+
+    &__coderhouse {
+        text-align: center;
+    }
+
+    &__udemy {
+        text-align: center;
+    }
+}

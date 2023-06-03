@@ -1,0 +1,49 @@
+/* ----- main contacto ----- */
+
+.form {
+    width: 400px;
+    padding: 50px;
+    margin: 50px auto 90px;
+
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+
+    &__titulo {
+        margin: 45px auto 0px;
+        text-align: center;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+    
+        font-size: 0.813rem;
+    }
+
+    &__textarea {
+        width: 100%;
+        padding: 10px;
+    
+        font-size: 0.813rem;
+        border: 2px solid black;
+        resize: none;
+    }
+
+    &__submit {
+        padding: 7px;
+        border-radius: 10px;
+        margin-top: 8px;
+        background-color: rgb(215, 194, 173);
+        box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+    
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+            background-color: rgb(156, 138, 120);
+            transition: 1s;
+        }
+    }
+}

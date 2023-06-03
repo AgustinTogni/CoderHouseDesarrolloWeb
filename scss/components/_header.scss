@@ -1,0 +1,51 @@
+/* ----- header ----- */
+
+header {
+    background-color: rgb(245, 235, 224);
+    padding: 22px;
+    width: 90%;
+    margin: 0px auto 40px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+}
+
+.nav {
+    padding: 0;
+
+    &__div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__lista {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 30px;
+
+        & a:hover {
+            color: rgb(194, 172, 149);
+            transition: 0.5s;
+        }
+    }
+
+    &__boton {
+        padding: 8px;
+        font-size: 1.125rem;
+        cursor: pointer;
+        color: black;
+        background-color: rgb(215, 194, 173);
+        text-decoration: none;
+    
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 3px rgb(146, 146, 146);
+
+        &:hover {
+            background-color: rgb(156, 138, 120);
+            color: black;
+            transition: 1s;
+        }
+    }
+
+
+}

@@ -1,0 +1,57 @@
+/* ----- main index ----- */
+
+.sobremi {
+    display: flex;
+    width: 60%;
+    margin: 100px auto 100px;
+
+    &__img {
+        width: 500px;
+        height: 600px;
+        margin: 40px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+    }
+
+    &__datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        & h2 {
+            font-size: 2.5rem;
+            color: black;
+        }
+
+        & h1 {
+            font-size: 1.875rem;
+            color: black;
+        }
+
+        & p {
+            color: black;
+            text-align: center;
+        }
+    }
+
+    &__boton {
+        padding: 8px;
+        margin: 10px;
+        font-size: 1.125rem;
+        cursor: pointer;
+        color: black;
+        background-color: rgb(215, 194, 173);
+        text-decoration: none;
+        border-radius: 10px;
+        
+        box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+
+        &:hover {
+            background-color: rgb(156, 138, 120);
+            transition: 1s;
+        }
+    }
+
+}

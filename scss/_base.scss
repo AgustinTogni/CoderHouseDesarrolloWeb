@@ -1,0 +1,33 @@
+/* ----- var ----- */
+
+$color-base: rgb(245, 235, 224);
+$color-light-brown: rgb(215, 194, 173);
+$color-brown: rgb(156, 138, 120);
+$shadow-1: 1px 1px 20px 5px rgb(146, 146, 146);
+$shadow-2: 1px 1px 10px 5px rgb(146, 146, 146);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 235, 224);
+}
+
+body {
+    background-color: rgb(245, 235, 224);
+}
+
+/* ----- nav ----- */
+
+ul,
+li {
+    list-style: none;
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,174 @@
+/* ----- main proyectos ----- */
+
+.proyectos {
+    width: 60%;
+    margin: 0px auto;
+
+    &__titulo {
+        text-align: center;
+        margin: 20px auto 80px;
+    }
+
+    &__article {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+    
+        grid-template-areas: "img1 div1 div1";
+
+        &--inverso {
+            display: grid;
+            grid-template-columns: repeat(3, 400px);
+        
+            grid-template-areas: "div2 div2 img2";
+        }
+    }
+
+    &__img {
+        grid-area: img1;
+
+        width: 300px;
+        height: 450px;
+        object-fit: cover;
+        margin-bottom: 40px;
+    
+        border-radius: 30px;
+        box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+
+        &--inverso {
+            grid-area: img2;
+
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+            margin: 0px 0px 40px 100px;
+        
+            border-radius: 30px;
+            box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+        }
+    }
+
+    &__div {
+        grid-area: div1;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--inverso {
+            grid-area: div2;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            & h2 {
+                margin-bottom: 30px;
+            }
+
+            & p {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            & a {
+                padding: 8px;
+                margin: 10px;
+                font-size: 1.125rem;
+                cursor: pointer;
+                color: black;
+                background-color: rgb(215, 194, 173);
+                text-decoration: none;
+                border-radius: 10px;
+                
+                box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+
+                &:hover {
+                    background-color: rgb(156, 138, 120);
+                    transition: 1s;
+                }
+            }
+        }
+
+        & h2 {
+            margin-bottom: 30px;
+        }
+
+        & p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        & a {
+            padding: 8px;
+            margin: 10px;
+            font-size: 1.125rem;
+            cursor: pointer;
+            color: black;
+            background-color: rgb(215, 194, 173);
+            text-decoration: none;
+            border-radius: 10px;
+            
+            box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+
+            &:hover {
+                background-color: rgb(156, 138, 120);
+                transition: 1s;
+            }
+        }
+    }
+}
+
+.destacados {
+    display: flex;
+
+    &__titulo {
+        text-align: center;
+        margin: 60px 0px 40px;
+    }
+
+    &__img {
+        width: 300px;
+        height: 400px;
+        margin: 20px 0px;
+    
+        object-fit: cover;    
+        border-radius: 120px;
+        box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+    }
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 30px;
+        width: 80%;
+
+        & p {
+            margin: 20px 0px;
+            text-align: center;
+        }
+
+        & a {
+            padding: 8px;
+            margin: 10px;
+            font-size: 1.125rem;
+            cursor: pointer;
+            color: black;
+            background-color: rgb(215, 194, 173);
+            text-decoration: none;
+            border-radius: 10px;
+            
+            box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+
+            &:hover {
+                background-color: rgb(156, 138, 120);
+                transition: 1s;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,32 @@
+/* ----- Footer ----- */
+
+.footer {
+    background-color: rgb(245, 235, 224);
+    padding: 25px;
+    margin-top: 40px;
+    box-shadow: -5px -5px 20px 5px rgb(146, 146, 146);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__contacto {
+        font-size: 2.188rem;
+
+        & i {
+            margin: 0px 20px 0px 20px;
+
+            &:hover {
+                color: rgb(156, 138, 120);
+                transition: 1s;
+            }
+        }
+    }
+
+    &__copyright h3 {
+        color: black;
+        font-size: 0.813rem;
+        margin-top: 8px;
+    }
+
+}
