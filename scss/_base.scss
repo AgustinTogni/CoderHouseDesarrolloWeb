@@ -11,11 +11,11 @@ $shadow-2: 1px 1px 10px 5px rgb(146, 146, 146);
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(245, 235, 224);
+    background-color: $color-base;
 }
 
 body {
-    background-color: rgb(245, 235, 224);
+    background-color: $color-base;
 }
 
 /* ----- nav ----- */
@@ -30,4 +30,3 @@ a {
     text-decoration: none;
     color: black;
 }
-

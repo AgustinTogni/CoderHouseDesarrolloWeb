@@ -5,7 +5,7 @@
     margin: 0px auto;
 
     & h1 {
-        margin: 20px 0px 20px;
+        margin: 50px 0px 20px;
     }
 
     & h2 {
@@ -29,4 +29,28 @@
     &__udemy {
         text-align: center;
     }
+}
+
+/* ----- Media Queries Mobile ----- */
+
+@media screen and (min-width: 390px) {
+
+    .certificaciones img {
+        width: 250px;
+        height: 175px;
+        margin: 15px 25px 25px 25px;
+    }
+
+}
+
+/* ----- Media Queries Desktop ----- */
+
+@media screen and (min-width: 1024px) {
+
+    .certificaciones img {
+        width: 450px;
+        height: 375px;
+        margin: 15px 25px 25px 25px;
+    }
+
 }

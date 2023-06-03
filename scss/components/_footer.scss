@@ -1,7 +1,7 @@
 /* ----- Footer ----- */
 
 .footer {
-    background-color: rgb(245, 235, 224);
+    background-color: $color-base;
     padding: 25px;
     margin-top: 40px;
     box-shadow: -5px -5px 20px 5px rgb(146, 146, 146);
@@ -17,7 +17,7 @@
             margin: 0px 20px 0px 20px;
 
             &:hover {
-                color: rgb(156, 138, 120);
+                color: $color-brown;
                 transition: 1s;
             }
         }
@@ -27,6 +27,33 @@
         color: black;
         font-size: 0.813rem;
         margin-top: 8px;
+    }
+
+}
+
+/* ----- Media Queries Mobile ----- */
+
+@media screen and (min-width: 390px) {
+
+    .footer {
+        box-shadow: -5px -5px 10px 5px rgb(146, 146, 146);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* ----- Media Queries Desktop ----- */
+
+@media screen and (min-width: 1024px) {
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 
 }

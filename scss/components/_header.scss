@@ -1,12 +1,12 @@
 /* ----- header ----- */
 
 header {
-    background-color: rgb(245, 235, 224);
+    background-color: $color-base;
     padding: 22px;
     width: 90%;
     margin: 0px auto 40px;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+    box-shadow: $shadow-1;
 }
 
 .nav {
@@ -34,18 +34,37 @@ header {
         font-size: 1.125rem;
         cursor: pointer;
         color: black;
-        background-color: rgb(215, 194, 173);
+        background-color: $color-light-brown;
         text-decoration: none;
-    
+
         border-radius: 10px;
-        box-shadow: 1px 1px 20px 3px rgb(146, 146, 146);
+        box-shadow: $shadow-1;
 
         &:hover {
-            background-color: rgb(156, 138, 120);
+            background-color: $color-brown;
             color: black;
             transition: 1s;
         }
     }
+}
 
+/* ----- Media Queries Mobile ----- */
+
+@media screen and (min-width: 390px) {
+
+    header {
+        margin: 0px auto 15px;
+        box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
+    }
+
+}
+
+/* ----- Media Queries Desktop ----- */
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        margin: 0px auto 15px;
+    }
 
 }

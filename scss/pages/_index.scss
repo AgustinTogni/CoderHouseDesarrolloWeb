@@ -10,7 +10,7 @@
         height: 600px;
         margin: 40px;
         border-radius: 30px;
-        box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+        box-shadow: $shadow-1;
     }
 
     &__datos {
@@ -42,16 +42,78 @@
         font-size: 1.125rem;
         cursor: pointer;
         color: black;
-        background-color: rgb(215, 194, 173);
+        background-color: $color-light-brown;
         text-decoration: none;
+
         border-radius: 10px;
-        
-        box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
+        box-shadow: $shadow-1;
 
         &:hover {
-            background-color: rgb(156, 138, 120);
+            background-color: $color-brown;
             transition: 1s;
         }
     }
+}
 
+/* ----- Media Queries Mobile ----- */
+
+@media screen and (min-width: 390px) {
+
+    .sobremi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0px auto 15px;
+
+        &__img {
+            width: 200px;
+            height: 260px;
+            margin: 20px 20px 30px;
+        }
+
+        &__datos {
+            & h2 {
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            & h1 {
+                font-size: 1.4rem;
+                text-align: center;
+            }
+
+            & p {
+                color: black;
+                text-align: center;
+            }
+        }
+    }
+}
+
+/* ----- Media Queries Desktop ----- */
+
+@media screen and (min-width: 1024px) {
+
+    .sobremi {
+        flex-direction: row;
+        margin: 160px auto 160px;
+
+        &__img {
+            width: 400px;
+            height: 500px;
+            margin: 40px;
+        }
+
+        &__datos {
+            & h2 {
+                font-size: 2.5rem;
+            }
+
+            & h1 {
+                font-size: 1.875rem;
+            }
+        }
+    }
 }
