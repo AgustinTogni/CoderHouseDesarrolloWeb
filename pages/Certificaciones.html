@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -57,7 +59,7 @@
     <main>
 
         <Section class="certificaciones">
-            <article class="certificaciones__intro">
+            <article data-aos="fade-down" data-aos-duration="2000" class="certificaciones__intro">
                 <h1>Certificaciones</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, repellat porro perspiciatis
                     pariatur
@@ -69,15 +71,15 @@
             </article>
 
             <article class="certificaciones__coderhouse">
-                <h2>CoderHouse</h2>
-                <img src="../img/certificado-ch-1.png" alt="Certificado Tester QA Manual">
-                <img src="../img/certificado-ch-2.png" alt="Certificado SQL">
+                <h2 data-aos="fade-down" data-aos-duration="2000">CoderHouse</h2>
+                <img data-aos="fade-right" data-aos-duration="2000" src="../img/certificado-ch-1.png" alt="Certificado Tester QA Manual">
+                <img data-aos="fade-left" data-aos-duration="2000" src="../img/certificado-ch-2.png" alt="Certificado SQL">
             </article>
 
             <article class="certificaciones__udemy">
-                <H2>Udemy</H2>
-                <img src="../img/certificado-udm-1.jpg" alt="Certificado Cypress">
-                <img src="../img/certificado-udm-2.jpg" alt="Certificado Udemy">
+                <H2 data-aos="fade-down" data-aos-duration="2000">Udemy</H2>
+                <img data-aos="fade-right" data-aos-duration="2000" src="../img/certificado-udm-1.jpg" alt="Certificado Cypress">
+                <img data-aos="fade-left" data-aos-duration="2000" src="../img/certificado-udm-2.jpg" alt="Certificado Udemy">
             </article>
         </Section>
 
@@ -94,6 +96,11 @@
             <h3>© Copyright 2023 - Agustin Gonzalo Togni Balassi</h3>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

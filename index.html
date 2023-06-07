@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -57,8 +59,8 @@
     <main>
 
         <section class="sobremi" id="sobremi">
-            <img src="./img/foto-cv.jpeg" alt="Foto de Agustin Togni" class="sobremi__img">
-            <div class="sobremi__datos">
+            <img data-aos="fade-right" data-aos-duration="2000" src="./img/foto-cv.jpeg" alt="Foto de Agustin Togni" class="sobremi__img">
+            <div data-aos="fade-down" data-aos-duration="2000" class="sobremi__datos">
                 <h2>Agustin Gonzalo Togni Balassi</h2>
                 <h1>Tester QA y Front-End Developer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident dolorum necessitatibus
@@ -68,7 +70,7 @@
                     consectetur adipisicing elit. Consequatur illo repellat quos asperiores voluptate adipisci quod,
                     modi deserunt dicta maiores qui, voluptas eius animi. Cupiditate accusamus repellat rerum odio
                     eligendi?</p>
-                <div class="sobremi__links">
+                <div data-aos="fade-left" data-aos-duration="2000" class="sobremi__links">
                     <a href="./pdf/agustin-togni-balassi-cv.pdf" download="Agustin Togni Balassi CV.pdf" class="sobremi__boton">Curriculum</a>
                     <a href="https://github.com/AgustinTogni" target="_blank" class="sobremi__boton">GitHub</a>
                 </div>
@@ -87,6 +89,11 @@
             <h3>© Copyright 2023 - Agustin Gonzalo Togni Balassi</h3>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
