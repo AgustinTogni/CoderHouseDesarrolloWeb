@@ -10,6 +10,7 @@
     align-items: center;
 
     &__titulo {
+        font-family: 'Anton', sans-serif;
         text-align: center;
         margin: 40px auto 50px;
     }
@@ -26,6 +27,7 @@
         box-shadow: $shadow-1;
 
         & h2 {
+            font-family: 'Anton', sans-serif;
             margin-bottom: 20px;
         }
     }

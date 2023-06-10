@@ -5,6 +5,7 @@
     margin: 0px auto;
 
     &__titulo {
+        font-family: 'Anton', sans-serif;
         text-align: center;
         margin: 60px auto 80px;
     }
@@ -20,6 +21,10 @@
             grid-template-columns: repeat(3, 400px);
 
             grid-template-areas: "div2 div2 img2";
+        }
+
+        & h2 {
+            font-family: 'Anton', sans-serif;
         }
     }
 
@@ -64,6 +69,7 @@
             align-items: center;
 
             & h2 {
+                font-family: 'Anton', sans-serif;
                 margin-bottom: 30px;
             }
 
@@ -104,6 +110,7 @@
     display: flex;
 
     &__titulo {
+        font-family: 'Anton', sans-serif;
         text-align: center;
         margin: 60px 0px 40px;
     }
@@ -126,6 +133,10 @@
 
         margin: 30px;
         width: 80%;
+
+        & h3 {
+            font-family: 'Anton', sans-serif;
+        }
 
         & p {
             margin: 20px 0px;

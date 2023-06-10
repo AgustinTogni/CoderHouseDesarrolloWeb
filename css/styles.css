@@ -147,6 +147,7 @@ header {
   gap: 20px;
 }
 .sobremi__datos h2 {
+  font-family: "Anton", sans-serif;
   font-size: 2.5rem;
   color: black;
 }
@@ -210,9 +211,11 @@ header {
   margin: 0px auto;
 }
 .certificaciones h1 {
+  font-family: "Anton", sans-serif;
   margin: 50px 0px 20px;
 }
 .certificaciones h2 {
+  font-family: "Anton", sans-serif;
   margin-top: 30px;
 }
 .certificaciones img {
@@ -257,6 +260,7 @@ header {
 .form__titulo {
   margin: 45px auto 0px;
   text-align: center;
+  font-family: "Anton", sans-serif;
 }
 .form__input {
   width: 100%;
@@ -306,6 +310,7 @@ header {
   margin: 0px auto;
 }
 .proyectos__titulo {
+  font-family: "Anton", sans-serif;
   text-align: center;
   margin: 60px auto 80px;
 }
@@ -318,6 +323,9 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 400px);
   grid-template-areas: "div2 div2 img2";
+}
+.proyectos__article h2 {
+  font-family: "Anton", sans-serif;
 }
 .proyectos__img {
   grid-area: img1;
@@ -352,6 +360,7 @@ header {
   align-items: center;
 }
 .proyectos__div--inverso h2 {
+  font-family: "Anton", sans-serif;
   margin-bottom: 30px;
 }
 .proyectos__div--inverso p {
@@ -369,6 +378,7 @@ header {
   display: flex;
 }
 .destacados__titulo {
+  font-family: "Anton", sans-serif;
   text-align: center;
   margin: 60px 0px 40px;
 }
@@ -387,6 +397,9 @@ header {
   align-items: center;
   margin: 30px;
   width: 80%;
+}
+.destacados__article h3 {
+  font-family: "Anton", sans-serif;
 }
 .destacados__article p {
   margin: 20px 0px;
@@ -451,6 +464,7 @@ header {
   align-items: center;
 }
 .servicios__titulo {
+  font-family: "Anton", sans-serif;
   text-align: center;
   margin: 40px auto 50px;
 }
@@ -464,6 +478,7 @@ header {
   box-shadow: 1px 1px 20px 5px rgb(146, 146, 146);
 }
 .servicios__article h2 {
+  font-family: "Anton", sans-serif;
   margin-bottom: 20px;
 }
 
