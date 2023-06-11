@@ -14,3 +14,4 @@ Este proyecto se desarrolla como trabajo final del curso "Desarrollo Web" de Cod
 	- Flexbox/Grids
 	- Bootstrap
 	- SASS
+	- SEO
