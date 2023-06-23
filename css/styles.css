@@ -321,12 +321,12 @@ header {
 }
 .proyectos__article {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 370px);
   grid-template-areas: "img1 div1 div1";
 }
 .proyectos__article--inverso {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 370px);
   grid-template-areas: "div2 div2 img2";
 }
 .proyectos__article h2 {
@@ -456,11 +456,11 @@ header {
   }
   .proyectos__article {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 370px);
   }
   .proyectos__article--inverso {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 370px);
   }
   .proyectos__img {
     margin: 20px auto 40px;
@@ -476,7 +476,7 @@ header {
     flex-direction: row;
   }
   .destacados__img {
-    width: 300px;
+    width: 280px;
     height: 400px;
   }
 }

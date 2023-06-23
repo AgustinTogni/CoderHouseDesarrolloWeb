@@ -12,13 +12,13 @@
 
     &__article {
         display: grid;
-        grid-template-columns: repeat(3, 400px);
+        grid-template-columns: repeat(3, 370px);
 
         grid-template-areas: "img1 div1 div1";
 
         &--inverso {
             display: grid;
-            grid-template-columns: repeat(3, 400px);
+            grid-template-columns: repeat(3, 370px);
 
             grid-template-areas: "div2 div2 img2";
         }
@@ -214,11 +214,11 @@
 
         &__article {
             display: grid;
-            grid-template-columns: repeat(3, 400px);
+            grid-template-columns: repeat(3, 370px);
 
             &--inverso {
                 display: grid;
-                grid-template-columns: repeat(3, 400px);
+                grid-template-columns: repeat(3, 370px);
             }
         }
 
@@ -239,7 +239,7 @@
         flex-direction: row;
 
         &__img {
-            width: 300px;
+            width: 280px;
             height: 400px;
         }
     }
