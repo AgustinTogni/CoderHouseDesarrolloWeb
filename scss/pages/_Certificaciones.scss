@@ -35,12 +35,13 @@
 
 /* ----- Media Queries Mobile ----- */
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
 
     .certificaciones img {
         width: 250px;
         height: 175px;
-        margin: 15px 25px 25px 25px;
+        margin: 15px auto 25px;
+        padding: 7px;
     }
 
 }

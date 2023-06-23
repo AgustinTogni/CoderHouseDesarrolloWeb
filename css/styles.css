@@ -109,13 +109,16 @@ header {
 }
 
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .footer {
     box-shadow: -5px -5px 10px 5px rgb(146, 146, 146);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .footer h3 {
+    text-align: center;
   }
 }
 /* ----- Media Queries Desktop ----- */
@@ -161,7 +164,7 @@ header {
   text-align: center;
 }
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .sobremi {
     display: flex;
     flex-direction: column;
@@ -235,11 +238,12 @@ header {
 }
 
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .certificaciones img {
     width: 250px;
     height: 175px;
-    margin: 15px 25px 25px 25px;
+    margin: 15px auto 25px;
+    padding: 7px;
   }
 }
 /* ----- Media Queries Desktop ----- */
@@ -292,7 +296,7 @@ header {
 }
 
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .form {
     width: 300px;
     padding: 40px;
@@ -407,7 +411,7 @@ header {
   text-align: center;
 }
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .proyectos__titulo {
     margin-bottom: -3px;
   }
@@ -427,13 +431,21 @@ header {
   }
   .proyectos__img {
     margin: 20px auto 40px;
+    width: 200px;
+    height: 300px;
   }
   .proyectos__img--inverso {
     margin: 20px auto 40px;
+    width: 200px;
+    height: 300px;
   }
   .destacados {
     flex-direction: column;
     align-items: center;
+  }
+  .destacados__img {
+    width: 230px;
+    height: 300px;
   }
 }
 /* ----- Media Queries Desktop ----- */
@@ -450,8 +462,22 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 400px);
   }
+  .proyectos__img {
+    margin: 20px auto 40px;
+    width: 300px;
+    height: 450px;
+  }
+  .proyectos__img--inverso {
+    margin: 20px auto 40px;
+    width: 300px;
+    height: 450px;
+  }
   .destacados {
     flex-direction: row;
+  }
+  .destacados__img {
+    width: 300px;
+    height: 400px;
   }
 }
 /* ----- main servicios ----- */
@@ -484,7 +510,7 @@ header {
 }
 
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   #servicios {
     margin: 80px auto 80px;
   }
