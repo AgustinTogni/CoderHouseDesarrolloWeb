@@ -5,9 +5,7 @@
 }
 
 .servicios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox();
 
     &__titulo {
         font-family: 'Anton', sans-serif;

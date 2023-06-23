@@ -42,6 +42,7 @@ a {
   transition: 1s;
 }
 
+/* ----- mixins ----- */
 /* ----- header ----- */
 header {
   background-color: rgb(245, 235, 224);
@@ -57,10 +58,13 @@ header {
 }
 .nav__div {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .nav__lista {
   display: flex;
+  flex-direction: column;
   justify-content: left;
   align-items: center;
   gap: 30px;
@@ -89,6 +93,7 @@ header {
   margin-top: 40px;
   box-shadow: -5px -5px 20px 5px rgb(146, 146, 146);
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
@@ -124,6 +129,7 @@ header {
 /* ----- Media Queries Desktop ----- */
 @media screen and (min-width: 1024px) {
   .footer {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -419,6 +425,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 20px auto 40px;
   }
@@ -426,6 +433,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 20px auto 40px;
   }
@@ -440,7 +448,9 @@ header {
     height: 300px;
   }
   .destacados {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .destacados__img {
@@ -487,6 +497,7 @@ header {
 
 .servicios {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }

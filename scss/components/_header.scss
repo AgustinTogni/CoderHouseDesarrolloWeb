@@ -13,14 +13,11 @@ header {
     padding: 0;
 
     &__div {
-        display: flex;
-        justify-content: space-between;
+        @include flexbox(space-between);
     }
 
     &__lista {
-        display: flex;
-        justify-content: left;
-        align-items: center;
+        @include flexbox(left, center, column);
         gap: 30px;
 
         & a:hover {

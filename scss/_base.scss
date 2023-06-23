@@ -52,3 +52,12 @@ a {
     color: black;
     transition: 1s;
 }
+
+/* ----- mixins ----- */
+
+@mixin flexbox($justify: center, $aling: center, $direction: row) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+}
