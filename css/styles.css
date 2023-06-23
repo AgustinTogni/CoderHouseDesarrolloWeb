@@ -74,7 +74,7 @@ header {
   transition: 0.5s;
 }
 /* ----- Media Queries Mobile ----- */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   header {
     margin: 0px auto 15px;
     box-shadow: 1px 1px 10px 5px rgb(146, 146, 146);
