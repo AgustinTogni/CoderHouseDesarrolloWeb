@@ -6,7 +6,7 @@ Este proyecto aún está en desarrollo, por lo cual se podrá ver como faltan a�
 ### 📰Descripcion📰
 Este proyecto se desarrolla como trabajo final del curso "Desarrollo Web" de CoderHouse. La idea de dicho proyecto es crear un sitio web que pueda ser utilizado como un portafolio personal, donde esté presente toda mi información (datos personales, contacto, servicios, proyectos y certificaciones).
 
-#### 🔧Herramientas/lenguajes utilizados:
+#### 🔧Herramientas y tecnologias utilizadas:
 
 - Visual Studio Code
 	- HTML
