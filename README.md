@@ -6,7 +6,7 @@ Este proyecto se encuentra finalizado, sin embargo, puede sufrir algunas modific
 Estoy abierto a recibir cualquier tipo de sugerencia, corrección o consejo de quien quiera darlo. A su vez, no tengo problema en responder dudas o preguntas sobre el proyecto, puedes hacérmelas a través de cualquiera de los medios que tengo disponible en mi perfil.
 
 ### 📰Descripcion📰
-Este proyecto se desarrollo como trabajo final del curso "Desarrollo Web" de CoderHouse, el cual complete exitosamente. La idea de dicho proyecto fue crear un sitio web que pueda ser utilizado como un portafolio personal, donde esté presente toda mi información (datos personales, contacto, servicios, proyectos y certificaciones).
+Este proyecto se desarrollo como trabajo final del curso "Desarrollo Web" de CoderHouse, el cual complete exitosamente. La propuesta de dicho proyecto fue crear un sitio web que pueda ser utilizado como un portafolio personal, donde esté presente toda mi información (datos personales, contacto, servicios, proyectos y certificaciones).
 
 El proyecto no contiene mi informacion mas actual, simplemente se dejo de ejemplo. Para visualizar datos mas recientes ingresar en mi [linkedIn](https://www.linkedin.com/in/agustin-gonzalo-togni-balassi-203444243/)
 
